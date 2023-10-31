@@ -1,3 +1,50 @@
-.img-fluid{
-    
+body {
+    background-image: url(../src/img/Rectangle\ 131.png);
+    overflow: hidden;
+    background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  }
+  
+
+  h1 {
+    font-weight: bold !important;
+    padding: 20px !important; 
+    color: white !important;
+  }
+
+  .btn.fs-2:hover {
+    font-size: 1.8rem !important;
+  }
+  .btn.fs-2{
+    font-weight: bold !important;
+  }
+
+ /* Add this CSS to your loginPage.css file or your external CSS file */
+.image-uploader {
+    text-align: center;
+    margin: 20px 0;
 }
+
+.upload-button {
+    display: inline-block;
+    position: relative;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #070d14; /* Button background color */
+    cursor: pointer;
+}
+
+.upload-button img {
+    width: 60px;
+    height: 60px;
+    margin: 20px; /* Center the image within the circle */
+}
+
+/* Style the file input to be hidden */
+input[type="file"] {
+    display: none;
+}
+  
+  
