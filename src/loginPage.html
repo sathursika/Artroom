@@ -1,1 +1,53 @@
-    
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Login Page</title>
+    <link rel="stylesheet" type="text/css" href="/css/loginPage.css" />
+  </head>
+  <body>
+    <div class="login-container">
+      <div class="image-uploader">
+        <input
+          type="file"
+          id="profile-image"
+          name="profile-image"
+          accept="image/*"
+        />
+        <label for="profile-image" class="upload-button">
+          <img src="#" alt="Upload Image" />
+        </label>
+      </div>
+      <h2>LOGIN</h2>
+      <form method="POST" >
+        <label for="username">Username:</label>
+        <input
+          type="text"
+          id="username"
+          name="username"
+          placeholder="Enter Your Username"
+          required
+        />
+
+        <label for="password">Password:</label>
+        <input
+          type="password"
+          id="password"
+          name="password"
+          placeholder="Enter Your Password"
+          required
+        />
+      </form>
+      <a href="./home.html"> <input type="submit" value="LOG IN" /> </a>
+      <div class="forgot-password">
+        <a href="/src/forgotPasswordPage.html">Forgot Password?</a>
+      </div>
+      <div class="signup-link">
+        <p>
+          <a href="/src/signupPage.html"
+            >Don't have an account? <span class="sign">SIGN UP</span></a
+          >
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

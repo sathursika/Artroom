@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sign Up Page</title>
+    <link rel="stylesheet" type="text/css" href="/css/signup.css">
+</head>
+<body>
+    <div class="login-container">
+        <div class="image-uploader">
+            <input type="file" id="profile-image" name="profile-image" accept="image/*">
+            <label for="profile-image" class="upload-button">
+                <img src="#" alt="Upload Image">
+            </label>
+        </div>
+        <h2>SIGN UP</h2>
+        <form action="your_login_script.php" method="POST">
+            <label for="username">Firstname:</label>
+            <input type="text" id="username" name="username" placeholder="Enter Your Firstname" required>
+
+            <label for="username">Lastname:</label>
+            <input type="text" id="username" name="username" placeholder="Enter Your Lastname" required>
+
+            <label for="username">Email:</label>
+            <input type="text" id="email" name="username" placeholder="Enter Your Email" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter Your Password" required>
+
+            <label for="password">Confirm Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter Your Confirm Password" required>
+           
+            <input type="submit" value="SING IN">
+        </form>
+       
+        <div class="signup-link">
+            <p><a href="/src/loginPage.html">Already have an account? <span class="sign">LOG IN</span></a></p>
+        </div>
+    </div>
+</body>
+</html>

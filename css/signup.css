@@ -1,0 +1,141 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('/src/img/Rectangle\ 152.png');
+    background-size: cover;
+}
+
+.login-container {
+    /* background-color: #fff; */
+    /* padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); */
+    width: 300px;
+    margin-top: -100px;
+}
+
+.login-container h2 {
+    text-align: center;
+    color: #fff;
+    font-size: 50px;
+    font-family: sans-serif;
+}
+
+.login-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-container form label {
+    font-weight: bold;
+    font-size: 25px;
+    font-family: Istok web;
+}
+
+.login-container form input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+}
+
+.login-container form input[type="submit"] {
+    background-color: #0f1821;
+    color: #fff;
+    cursor: pointer;
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 65px;
+    font-family: sans-serif;
+}
+
+.login-container form input[type="submit"]:hover {
+    background-color: #e8eaed;
+    cursor: pointer;
+    color: #03090f;
+}
+
+.forgot-password {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.forgot-password a {
+    text-decoration: none;
+    color: #0e141a; /* Link color */
+    font-size: 25px;
+    margin-left: 80px;
+    cursor: pointer;
+    font-family: Istok web;
+    font-weight: bold;
+}
+
+.forgot-password a:hover {
+    text-decoration: underline;
+    color: #bfc9d3; /* Link color on hover */
+}
+
+.signup-link {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.signup-link p {
+    font-size: 14px;
+    color: #333; /* Text color */
+}
+
+.signup-link a {
+    text-decoration: none;
+    color: #11171d;
+    font-size: 21px;
+    margin-left: -20px;
+    font-family: Istok web;
+    font-weight: bold;
+}
+
+.signup-link a:hover {
+    /* text-decoration: underline; */
+    color: #bfc9d3;
+    
+}
+
+.sign{
+    color: #f4f4f4;
+    font-size: 21px;
+}
+
+.image-uploader {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.upload-button {
+    display: inline-block;
+    position: relative;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #03090f; /* Button background color */
+    cursor: pointer;
+    color: #fff;
+}
+
+.upload-button img {
+    width: 60px;
+    height: 60px;
+    margin: 20px; /* Center the image within the circle */
+}
+
+/* Style the file input to be hidden */
+input[type="file"] {
+    display: none;
+}
