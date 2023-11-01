@@ -1,0 +1,51 @@
+.topimg{
+    background-image: url('../src/img/Rectangle\ 28.png'); 
+    background-size: cover !important;
+    height: 280px !important;
+}
+.custom-nav {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .custom-nav-item {
+    margin-left: auto;
+  }
+
+  .nav-pills .nav-link.active {
+    background-color: #8B4513 !important; 
+    color: #ffffff !important; 
+    border-radius: 20px;
+  }
+  .nav-pills .nav-item .nav-link:hover {
+    background-color: #3d1807 !important; 
+    color: #ffffff; 
+  }
+
+  .image-uploader {
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 1050px;
+}
+
+.upload-button {
+    display: inline-block;
+    position: relative;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #03090f; /* Button background color */
+    cursor: pointer;
+    color: #fff;
+}
+
+.upload-button img {
+    width: 60px;
+    height: 60px;
+    margin: 20px; /* Center the image within the circle */
+}
+
+/* Style the file input to be hidden */
+input[type="file"] {
+    display: none;
+}
