@@ -1,0 +1,91 @@
+/* .headerImg{
+    background-image: url('../src/img/Rectangle\ 28.png') !important;
+} */
+.bg-orange {
+    background-color: #d27408; 
+  }
+  .topimg{
+      background-image: url('../src/img/Rectangle\ 28.png'); 
+      background-size: cover !important;
+      height: 280px !important;
+  }
+  .custom-nav {
+      display: flex;
+      justify-content: space-between;
+    }
+    
+    .custom-nav-item {
+      margin-left: auto;
+    }
+  
+    .nav-pills .nav-link.active {
+      background-color: #8B4513 !important; 
+      color: #ffffff !important; 
+      border-radius: 20px;
+    }
+    .nav-pills .nav-item .nav-link:hover {
+      background-color: #3d1807 !important; 
+      color: #ffffff; 
+    }
+  
+     /* Add this CSS to your loginPage.css file or your external CSS file */
+  .image-uploader {
+      text-align: right;
+      margin: 20px 0;
+  }
+  
+  .upload-button {
+      display: inline-block;
+      position: relative;
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      background-color: #070d14; /* Button background color */
+      cursor: pointer;
+  }
+  
+  .upload-button img {
+      width: 60px;
+      height: 60px;
+      margin: 20px; /* Center the image within the circle */
+  }
+  
+  /* Style the file input to be hidden */
+  input[type="file"] {
+      display: none;
+  }
+  h1 {
+      font-weight: bold !important;
+      padding: 20px !important; 
+      color: rgb(11, 1, 1) !important;
+    }
+  
+    .button-container {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 200px;
+    }
+    
+    .button {
+        width: 300px;
+        height: 300px;
+        background-color: #a4a4a4;
+        border: none;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: #251414;
+        font-weight: bold;
+        font-family: "Otomanopee One";
+        font-size: 18px;
+    }
+    
+    .text {
+        text-align: center;
+       font-weight: bold;
+       color: black;
+       font-size: 50px;
+       /* text-decoration: underline; */
+    }

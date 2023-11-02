@@ -10,7 +10,7 @@
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.2/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.18.0/font/bootstrap-icons.min.css" rel="stylesheet">
 
-    <title>Document</title>
+    <title>View Details</title>
 </head>
 <body>
     <div class="">
@@ -28,10 +28,10 @@
                         <a class="nav-link active" aria-current="page" href="./requests.html">Requests</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Assigned Evenets</a>
+                        <a class="nav-link active" aria-current="page" href="./assignedEvents.html">Assigned Evenets</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link active " aria-current="page" href="#">My Profile</a>
+                        <a class="nav-link active " aria-current="page" href="./myProfile.html">My Profile</a>
                       </li>
                       <li class="nav-item logout"> 
                         <a class="nav-link active" aria-current="page" href="./loginPage.html">Logout</a>
@@ -53,15 +53,65 @@
           <div class="col-md-3">
             <div class="text-white" style="padding: 109px; background-color: #EDE5DB !important;">
                 <div class="d-grid gap-5 col-6 mx-auto">
-                    <button class="btn btn-primary" type="button" style="height:120px; width: 120px; background-color: #daba63;">View Details</button>
-                    <button class="btn btn-primary" type="button" style="height:120px; width: 120px; background-color: #daba63;">Update Status</button>
-                    <button class="btn btn-primary" type="button" style="height:120px; width: 120px; background-color: #daba63;">View Details</button>
+                    <button class="btn btn-primary" type="button" style="height:120px; width: 120px; background-color: #533e06;"><a href="./assignedEvents.html">View Details</a></button>
+                    <button class="btn btn-primary" type="button" style="height:120px; width: 120px; background-color: #daba63;"><a href="./updateStatus.html">Update Status</a></button>
+                    <button class="btn btn-primary" type="button" style="height:120px; width: 120px; background-color: #daba63;"><a href="./viewFeedback.html">View Feedbacks</a></button>
                   </div>
             </div>
           </div>
           <div class="col-md-6">
-            <div class="rounded-0 bg-secondary text-white p-3">
-              Content in the second div
+            <div class="rounded-0 bg-secondary text-white p-3" style="background-color: #fff !important;">
+                <main>
+                    <p style="color: black; font-size: 40px;"><strong>View Details</strong></p>
+                    <table class="requests">
+                      <thead class="thead">
+                        <tr>
+                          <th class="eve">Event ID</th>
+                          <th>Date</th>
+                          <th>Time</th>
+                          <th>Location</th>
+                          <th>Event Type</th>
+                          <th class="act">Actions</th>
+                        </tr>
+                      </thead>
+                      <tbody class="tbody">
+                        <tr class="tr with-border">
+                          <td class="box">01</td>
+                          <td>18/11/2022</td>
+                          <td>8.00 a.m</td>
+                          <td>Battaramulla</td>
+                          <td>Party</td>
+                          <td class="act">
+                            <button class="but"><a style="color: #fff;" href="#">Confirmed</a></button>
+                            <button class="but1"><a style="color: #fff;" href="#">View More</a></button>
+                          </td>
+                        </tr>
+                        <tr class="tr with-border">
+                          <td class="box">02</td>
+                          <td>18/11/2022</td>
+                          <td>8.00 a.m</td>
+                          <td>Colombo 07</td>
+                          <td>Wedding</td>
+                          <td class="act">
+                            <button class="but2"><a style="color: #fff;" href="#">Full Paid</a></button>
+                            <button class="but1"><a style="color: #fff;" href="#">View More</a></button>
+                          </td>
+                        </tr>
+                        <tr class="tr with-border">
+                          <td class="box">03</td>
+                          <td>18/11/2022</td>
+                          <td>8.00 a.m</td>
+                          <td>Colombo 07</td>
+                          <td>Party</td>
+                          <td class="act">
+                            <button class="but3"><a style="color: #fff;" href="#">Covered</a></button>
+                            <button class="but1"><a style="color: #fff;" href="#">View More</a></button>
+                          </td>
+                        </tr>
+                       
+                      </tbody>
+                    </table>
+                  </main>
             </div>
           </div>
         </div>
